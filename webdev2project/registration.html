@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BAHA</title>
+    <link rel="stylesheet" href="registration.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"/>
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="#home" id="navbar__logo">BAHA</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="donation.html" class="navbar__links" id="about-page">Donate</a>
+          </li>
+          <li class="navbar__item">
+            <a href="AboutUs.html" class="navbar__links" id="services-page">About Us</a>
+          </li>
+          <li class="navbar__btn">
+            <a href="index.html" class="button" id="signup"><span>Home</span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+<div class="hero" id="home">
+    <form action="summary.php" method="get">
+  <div class="hero__container">
+    <h1 class="hero__heading"><span>Register</span></h1>
+    <p class="hero__description">Please fill in this form to create an account.</p>
+    <hr>
+
+    <label for="fullname"><Email class="hero__description">Full Name</p></label>
+    <input type="text" placeholder="Enter Full Name" name="fullname" id="fullname" required>
+
+    <label for="username"><Email class="hero__description">Username</p></label>
+    <input type="text" placeholder="Enter Username" name="username" id="username" required>
+
+    <label for="contact"><Email class="hero__description">Contact Number</p></label>
+    <input type="number" placeholder="Enter Contact Number" name="contact" id="contact" required>
+
+    <label for="email"><Email class="hero__description">Email</p></label>
+    <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+    <label for="psw"><Password class="hero__description">Password</p></label>
+    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+    <button type="submit" class="main__btn">Register</button>
+  </div>
+
+  <!-- <div class="hero__container">
+    <p class="hero__description">Already have an account?</p><p class="hero__description2"><a href="#">Sign in</a>.</p>
+  </div> -->
+</form>
+</div>
+    <script src="script.js"></script>
+  </body>
+</html>
